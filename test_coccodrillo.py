@@ -14,6 +14,6 @@ def test_open_coccodrillo(driver):
     driver.get("https://pl.coccodrillo.eu/")
     time.sleep(5)
     assert "Coccodrillo" in driver.title, "Strona nie otworzyła się poprawnie"
-
+# test
 
 
